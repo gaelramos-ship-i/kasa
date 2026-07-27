@@ -1,0 +1,25 @@
+@import './variables';
+
+#home {
+    background: linear-gradient(to right, #F5F7FA 0%, #C3CFE2 100%);
+
+    div {
+        max-width: $max-width;
+        margin: auto;
+        text-align: center;
+        padding: 80px 0;
+
+        h1 {
+            color: $darkBlue;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: $textHome;
+            font-size: 20px;
+            width: 50%;
+            margin: auto;
+        }
+    }
+}

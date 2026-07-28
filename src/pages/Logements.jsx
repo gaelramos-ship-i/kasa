@@ -11,6 +11,7 @@ const Logements = () => {
                 {logements.map((logement) => (
                     <LogementCard
                         key={logement.id}
+                        id={logement.id}
                         picture={logement.pictures[0]}
                         title={logement.title}
                         location={logement.location}

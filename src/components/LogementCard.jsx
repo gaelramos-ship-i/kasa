@@ -2,9 +2,9 @@ import { CiLocationOn } from "react-icons/ci";
 import { LiaStarSolid } from "react-icons/lia";
 import { LiaStar } from "react-icons/lia";
 
-const LogementCard = ({ title, location, picture, tags, rating }) => (
+const LogementCard = ({ title, location, picture, tags, id, rating }) => (
     <article className="logement-card">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href={`/details?id=${id}`} >
             <img src={picture} alt={title} />
             <h3>{title}</h3>
             <div className="location">

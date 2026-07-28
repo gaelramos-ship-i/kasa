@@ -22,23 +22,26 @@ a {
 }
 
 header {
-    max-width: $max-width;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-
-    >a {
-        font-size: 24px;
-        font-family: $pacifico;
-        color: $titleColor;
-    }
-
-    .navbar {
+    border-bottom: 1px solid #9ca3af27;
+    >div {
+        max-width: $max-width;
+        margin: auto;
         display: flex;
-        gap: 40px;
-        font-family: $inter;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+
+        >a {
+            font-size: 24px;
+            font-family: $pacifico;
+            color: $titleColor;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 40px;
+            font-family: $inter;
+        }
     }
 }
 
@@ -60,7 +63,8 @@ footer {
 
         ul {
             line-height: 1.8rem;
-            a{
+
+            a {
                 color: $footerUl;
             }
         }

@@ -1,0 +1,36 @@
+@import './variables';
+
+#details {
+
+    img {
+        width: 100%;
+        height: 384px;
+        object-fit: cover;
+        padding-top: 20px;
+    }
+
+    >div>div {
+        position: relative;
+    }
+
+    #nextBtn,
+    #prevBtn {
+        background: #FFFFFFCC;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        position: absolute;
+    }
+
+    #nextBtn {
+        top: 50%;
+        left: 100%;
+        transform: translate(-140%, -50%);
+    }
+
+    #prevBtn {
+        top: 50%;
+        left: 0;
+        transform: translate(40%, -50%);
+    }
+}

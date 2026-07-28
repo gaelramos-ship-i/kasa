@@ -1,0 +1,31 @@
+@import './variables';
+
+#collapse {
+
+    .styleCollapse {
+        border: 1px solid #E5E7EB;
+        border-radius: 20px;
+        padding: 14px;
+        margin-bottom: 20px;
+
+        >div:nth-child(1) {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+
+            p {
+                color: $darkBlue;
+            }
+        }
+
+        >div>div p {
+            color: $textHome;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+    }
+}

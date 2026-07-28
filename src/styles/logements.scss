@@ -16,33 +16,6 @@
             object-fit: cover;
             border-radius: 20px 20px 0 0;
         }
-
-        h3,
-        .location,
-        .tags,
-        .stars {
-            margin: 10px 20px;
-            color: $darkBlue;
-        }
-
-        .location {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            color: $textHome;
-        }
-
-        span {
-            background: linear-gradient(to right, #667EEA 0%, #764BA2 100%);
-            padding: 6px 20px;
-            border-radius: 20px;
-            color: $white;
-        }
-
-        .tags {
-            display: flex;
-            gap: 20px;
-        }
     }
 
     .logement-card {

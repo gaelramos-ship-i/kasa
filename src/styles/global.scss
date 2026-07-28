@@ -1,5 +1,7 @@
 @import './variables';
 
+// Général
+
 * {
     margin: 0;
     font-family: $inter;
@@ -21,8 +23,11 @@ a {
     }
 }
 
+// Header
+
 header {
     border-bottom: 1px solid #9ca3af27;
+
     >div {
         max-width: $max-width;
         margin: auto;
@@ -44,6 +49,39 @@ header {
         }
     }
 }
+
+// CardLogement et Details
+h1,
+h3,
+.location,
+.tags,
+.stars,
+#identity {
+    margin: 10px 20px;
+    color: $darkBlue;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: $textHome;
+}
+
+span {
+    background: linear-gradient(to right, #667EEA 0%, #764BA2 100%);
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: $white;
+}
+
+.tags {
+    display: flex;
+    gap: 20px;
+    margin-top: 14px;
+}
+
+// Footer
 
 footer {
     background: $darkBlue;

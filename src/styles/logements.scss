@@ -39,3 +39,18 @@
         color: #FFD700;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    #logements .logement-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #logements .logement-list {
+        grid-template-columns: 1fr;
+    }
+    // #logements .logement-card{
+    //     width: 90%;
+    // }
+}

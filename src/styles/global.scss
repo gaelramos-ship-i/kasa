@@ -47,6 +47,10 @@ header {
             gap: 40px;
             font-family: $inter;
         }
+
+        svg {
+            display: none;
+        }
     }
 }
 
@@ -79,6 +83,7 @@ span {
     display: flex;
     gap: 20px;
     margin-top: 14px;
+    flex-wrap: wrap;
 }
 
 // Footer
@@ -116,5 +121,23 @@ footer {
         text-align: center;
         border-top: 1px solid $footerColor;
         padding: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header>div {
+        .navbar {
+            display: none;
+        }
+        svg {
+            display: block;
+        }
+    }
+    footer div{
+        display: flex;
+        flex-direction: column;
+        article{
+            margin-bottom: 40px;
+        }
     }
 }

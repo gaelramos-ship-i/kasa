@@ -9,6 +9,7 @@ import '../styles/collapses.scss'
 import '../styles/carousel.scss'
 
 import { CiLocationOn } from "react-icons/ci";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Details = () => {
 
@@ -24,6 +25,7 @@ const Details = () => {
                 <div>
                     <a href="/">Kasa</a>
                     <Navbar />
+                    <RxHamburgerMenu />
                 </div>
             </header>
 

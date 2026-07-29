@@ -5,8 +5,6 @@ import Logements from './Logements'
 import '../styles/home.scss'
 import '../styles/logements.scss'
 
-import { RxHamburgerMenu } from "react-icons/rx";
-
 const Home = () => {
     return (
         <>
@@ -14,7 +12,6 @@ const Home = () => {
                 <div>
                     <a href="/">Kasa</a>
                     <Navbar />
-                    <RxHamburgerMenu />
                 </div>
             </header>
 
